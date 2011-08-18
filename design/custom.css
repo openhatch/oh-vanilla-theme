@@ -1,0 +1,116 @@
+/* Custom CSS goes here */
+body {
+background: #000 url('http://openhatch.org/static/images/motif-eee.png') repeat;
+}
+
+/* Hide the second guest box button */
+div.GuestBox a.Button+a.Button {
+   display: none;
+}
+
+a, a:link, a:visited, a:active {
+color: #FF6D3D;
+}
+
+a.Button, .Button {
+color: #333;
+}
+
+#Head h1 a span {
+    background: #7fc4ff;
+    color: #fff;
+    padding: 3px 5px 2px 5px;
+}
+
+#Menu a, #Menu li.Active a {
+    color: #484848;
+}
+
+#Menu a:hover {
+	background: #7fc4ff;
+}
+
+#Menu li.NonTab, #Menu li.NonTab a:hover {
+    color: #484848 !important;
+}
+
+#Menu li.NonTab a:hover {
+    text-decoration: underline !important;
+}
+
+#Head form input.Button {
+    background: #7fc4ff;
+    color: #fff;
+}
+
+#Head form input.Button {
+text-shadow: 0 1px 0 #666;
+}
+
+#Head {
+background: transparent url('http://openhatch.org/static/images/gray-60.png') repeat;
+}
+
+div.Box {
+background: rgba(200, 255, 10, 0.3);
+border: 4px solid #fff;
+box-shadow: none;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+}
+
+#DiscussionForm form {
+background: rgba(200,255,10,0.3);
+border: 4px solid #fff;
+box-shadow: none;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+
+}
+
+ul.MessageList li.Item {
+background-color: white;
+}
+
+.Mine {
+    background: #f9f9f9;
+}
+
+div.Tabs div.SubTab {
+   background: white;
+}
+
+div.HeadingTabs div.SubTab {
+    background: none repeat scroll 0 0 transparent;
+}
+
+div.Box h4 {
+color: #555;
+}
+
+ul.PanelInfo li.Active a {
+    color: #555;
+}
+
+div.MorePager a, div.MorePager a:link, div.MorePager a:hover, div.MorePager a:active, 
+div.MorePager a:visited, a.TabLink, a.TabLink:link, a.TabLink:hover, a.TabLink:active, 
+a.TabLink:visited, div.Tabs li a, div.Tabs li a:link, div.Tabs li a:hover, div.Tabs li 
+a:active, div.Tabs li a:visited {
+    border: 1px solid rgba(200,255,10,1);
+    background-color: white;
+}
+
+div.MessageForm, div.Tabs {
+background: rgba(200, 255, 10, 0.3);
+border-bottom: 1px solid rgba(200,255,10, 1);
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+}
+
+a.BigButton {
+	color: #333;
+}
+/* a.button:nth-child(2) { display: none; } */
